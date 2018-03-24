@@ -48,10 +48,10 @@ $ git checkout -b <repo-branch>  # creates and switches to a local copy of a
 
 $ git branch -d <branch>         # delete a local branch
 
-$ git merge <other-branch>       # applies all committed changes from <other-branch> to the current branch, 
-                                 # reconciling the current branch's commits
-$ git rebase <other-branch>      # applies all commits from <other-branch> one by one to the current branch,
-                                 # rewriting all the current branch's commits when it is done
+$ git merge <other-branch>       # applies all committed changes from <other-branch> to the 
+                                 # current branch, reconciling the current branch's commits
+$ git rebase <other-branch>      # applies all commits from <other-branch> one by one to the current
+                                 # branch, rewriting all the current branch's commits when it's done
                                  
 # Note: only use rebase if you have local commits pending. do NOT rebase if you have commits in your
 # current branch that have been pushed to the repo already!
@@ -63,7 +63,7 @@ For more details, check out [this link on branches & basic merging](https://git-
 
 ~~~bash
 $ git fetch origin           # downloads information on remote branches, without applying any changes
-$ git merge origin/<branch>  # applies all commited changes from downloaded remote <branch> to current branch
+$ git merge origin/<branch>  # applies all commited changes from downloaded remote branch to current branch
 $ git pull origin <branch>   # shorthand for doing the previous two steps at the same time
 # Note: the slashes matter here
 ~~~
