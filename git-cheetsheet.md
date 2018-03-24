@@ -66,6 +66,7 @@ $ git fetch origin           # downloads information on remote branches, without
 $ git merge origin/<branch>  # applies committed changes from downloaded remote branch to current branch
 $ git pull origin <branch>   # shorthand for doing the previous two steps at the same time
 # Note: the slashes matter here
+$ git pull                   # pulls using whatever repo branch corresponds to the current branch
 ~~~
 
 For more details, check out [this link.](https://longair.net/blog/2009/04/16/git-fetch-and-merge/)
