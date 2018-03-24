@@ -63,7 +63,7 @@ For more details, check out [this link on branches & basic merging](https://git-
 
 ~~~bash
 $ git fetch origin           # downloads information on remote branches, without applying any changes
-$ git merge origin/<branch>  # applies all commited changes from downloaded remote branch to current branch
+$ git merge origin/<branch>  # applies committed changes from downloaded remote branch to current branch
 $ git pull origin <branch>   # shorthand for doing the previous two steps at the same time
 # Note: the slashes matter here
 ~~~
