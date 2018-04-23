@@ -25,7 +25,11 @@ $ git add <file>              # stages changes to a file to the next commit
 $ git add .                   # stages all changed files in the working directory
                               # to the next commit (use with care)
                               
-$ git commit -m "description" # adds a commit with changes to the code, waiting to be pushed
+$ git checkout -- <file>      # discard all unstaged changes to a file
+$ git rm --cached <file>      # delete file from project repo in next commit
+$ git rm <file>               # delete file from both project repo and local filesystem
+                              
+$ git commit -m "summary"     # adds a commit with changes to the code, waiting to be pushed
 $ git push                    # pushes all pending local commits in the current branch to the repo
 ~~~
 
